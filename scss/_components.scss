@@ -1,0 +1,195 @@
+
+.heading2xl {
+    color: var(--darkestGrey, #111);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSize3xl);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightTight);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSize2xl);
+    }
+
+    @media (max-width: 991px) {
+        font-size: var(--fontSizeXl);
+    }
+
+    @media (max-width: 576px) {
+        font-size: var(--fontSizeLg);
+    }
+
+}
+
+.headingXl {
+    color: var(--darkestGrey, #111);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeLg);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightMedium);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSizeMd);
+    }
+
+}
+
+
+.headingLg {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeLg);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightMedium);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSizeSm);
+    }
+
+    @media (max-width: 991px) {
+        font-size: var(--fontSizeXs);
+    }
+}
+
+
+.headingMd {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeMd);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightMedium);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSizeSm);
+    }
+
+    @media (max-width: 991px) {
+        font-size: var(--fontSizeXs);
+    }
+}
+
+
+
+.headingSm {
+    color: var(--darkestGrey, #111);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeSm);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightLoose);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSizeXs);
+    }
+
+}
+
+.headingXs {
+    color: var(--darkestGrey, #111);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeXs);
+    font-weight: var(--fontWeightBold);
+    line-height: var(--lineHeightLoose);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSize2xs);
+    }
+
+}
+
+
+.subtitleMd {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeSm);
+    font-weight: var(--fontWeightLight);
+    line-height: var(--lineHeightComfy);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSizeXs);
+    }
+
+    @media (max-width: 767px) {
+        font-size: var(--fontSize2xs);
+    }
+
+
+}
+
+.paragraph {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeXs);
+    font-weight: var(--fontWeightRegular);
+    line-height: var(--lineHeightLoose);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSize2xs);
+    }
+}
+
+.description {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSize2xs);
+    font-weight: var(--fontWeightRegular);
+    line-height: var(--lineHeightLoose);
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSize3xs);
+    }
+
+}
+
+.caption {
+    color: var(--darkGrey);
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSize3xs);
+    font-weight: var(--fontWeightRegular);
+    line-height: var(--lineHeightLoose);
+}
+
+
+.eyebrow {
+    color: var(--darkGrey, #54595F);
+    opacity: 0.4;
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeXs);
+    font-weight: var(--fontWeightExtraBold);
+    line-height: var(--lineHeightLoose);
+    letter-spacing: 5.12px;
+    text-transform: uppercase;
+
+    @media (max-width: 1199px) {
+        font-size: var(--fontSize2xs);
+    }
+
+    @media (max-width: 991px) {
+        font-size: var(--fontSize3xs);
+    }
+
+}
+
+
+.primaryButton {
+    height: 48px;
+    width: auto;
+    padding: 0px var(--spacingXs);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borderRadiusSm, 8px);
+    background: var(--pureViolet, #4E48E0);
+    color: var(--pureWhite, #FFF);
+    text-align: center;
+    font-family: var(--fontFamilyBase);
+    font-size: var(--fontSizeXs);
+    font-weight: var(--fontWeightBoldMedium);
+    line-height: var(--lineHeightTight);
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--lightViolet);
+        transition: 0.3s;
+    }
+}
+

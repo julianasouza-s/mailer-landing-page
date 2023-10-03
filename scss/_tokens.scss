@@ -1,0 +1,69 @@
+:root {
+    /* Colors */
+    --pureOcean: #00A3B1;
+    --lightOcean: #5ABCC5;
+    --pureAzure: #1C81C1;
+    --lightAzure: #569FCE;
+    --pureViolet: #4E48E0;
+    --lightViolet: #7772EC;
+    --pureWhite: #FFFFFF;
+    --lightestGrey: #F7F8FB;
+    --lightGrey: #E8E8E8;
+    --midGrey: #979A9D;
+    --darkGrey: #54595F;
+    --darkestGrey: #111111;
+    --milkFoam: #FDF9F4;
+    --latte: #F6F1EB;
+
+    /* Border Radius */
+    --borderRadiusNone: 0;
+    --borderRadiusMinimal: 0.4rem;
+    --borderRadiusSm: 0.5rem;
+    --borderRadiusMd: 1rem;
+    --borderRadiusLg: 1.5rem;
+
+    /* Spacings */
+    --spacing4xs: 0.4rem;
+    --spacing3xs: 0.5rem;
+    --spacing2xs: 0.75rem;
+    --spacingXs: 1rem;
+    --spacingSm: 1.5rem;
+    --spacingMd: 2rem;
+    --spacingLg: 2.5rem;
+    --spacingXl: 3rem;
+    --spacing2xl: 3.5rem;
+    --spacing3xl: 4rem;
+
+   /* Font Family */
+    --fontFamilyBase: 'Inter', sans-serif;
+
+    /* Font Size */
+    --fontSize3xl: 3.5rem;
+    --fontSize2xl: 3rem;
+    --fontSizeXl: 2.5rem;
+    --fontSizeLg: 2rem;
+    --fontSizeMd: 1.5rem;
+    --fontSizeSm: 1.25rem;
+    --fontSizeXs: 1rem;
+    --fontSize2xs: 0.875rem;
+    --fontSize3xs: 0.75rem;
+    
+   
+    /* Font Weight */
+    --fontWeightLight: 400;
+    --fontWeightMedium: 500;
+    --fontWeightBold: 700;
+    --fontWeightExtraBold: 800;
+
+
+    /* Line Height */
+    --lineHeightTight: 110%;
+    --lineHeightMedium: 124%;
+    --lineHeightLoose: 132%;
+    --lineHeightComfy: 140%;
+
+}
+
+.bold {
+    font-weight: var(--fontWeightBold);
+}
